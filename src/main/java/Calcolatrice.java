@@ -5,6 +5,13 @@ public class Calcolatrice
 		double s = 0;
 		for(double addendo : addendi)
 		{
+			if(addendo <0)
+				System.out.println("add neg");
+			if(addendo == 0)
+				System.out.println("add è 0");
+			if(addendo > 0)
+				System.out.println("add pos");
+			
 			s = s + addendo;
 		}
 		

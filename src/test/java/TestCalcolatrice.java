@@ -71,6 +71,13 @@ class TestCalcolatrice
 		assertEquals(Double.POSITIVE_INFINITY, res, 0);
 	}
 	
+	@Test
+	void testSomma9()
+	{
+		double res= c.somma(7,0);
+		assertEquals(7,res,0);
+	}
+	
 	
 	
 	@Test
